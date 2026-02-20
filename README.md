@@ -22,11 +22,19 @@ This repository contains notebooks and scripts for learning PyTorch, starting fr
     *   Activation functions.
 
 ### 4. Training Loop [`04_training_loop/`](04_training_loop/train.ipynb)
-*   **`train.ipynb`**: putting it all together.
+*   **`train.ipynb`**: Putting it all together.
     *   Forward pass.
     *   Loss calculation.
     *   Backward pass.
     *   Optimizer step.
+
+### 5. Datasets & DataLoaders [`05_Datasets_DataLoaders/`](05_Datasets_DataLoaders)
+*   **`datasets.ipynb`**: Working with PyTorch Datasets.
+    *   Custom Dataset classes (`torch.utils.data.Dataset`).
+    *   Data preprocessing and transforms.
+*   **`dataloaders.ipynb`**: Using DataLoaders for efficient training.
+    *   Batching, shuffling, and loading data (`torch.utils.data.DataLoader`).
+    *   Iterating through batches.
 
 ## Projects / Examples
 
